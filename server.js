@@ -4,7 +4,7 @@ const cors = require('cors');
 const path = require('path');
 
 const app = express();
-// adding middleware - cors
+// adding middleware - corss
 app.use(cors());
 // adding middleware - body-parser
 app.use(bodyparser.json());
